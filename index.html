@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maroo - インサイドセールス支援サービス</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="99" height="23" viewBox="0 0 99 23" fill="none">
+                        <g clip-path="url(#clip0_23_703)">
+                            <path d="M25.63 0.0950012V22.495H21V8.095L14.37 22.495H11.23L4.67 8.095V22.495H0V0.0950012H5.86L12.86 15.675L19.93 0.0950012H25.63Z" fill="#1D1D1F"/>
+                            <path d="M46.3001 6.68501V22.495H41.7301V20.385C41.1423 21.1839 40.3692 21.8279 39.4773 22.2616C38.5854 22.6954 37.6014 22.9059 36.6101 22.875C32.3501 22.875 29.1201 19.295 29.1201 14.595C29.1201 9.89501 32.3501 6.30501 36.6101 6.30501C37.5977 6.25683 38.5819 6.45345 39.4751 6.8774C40.3684 7.30134 41.143 7.93946 41.7301 8.73501V6.68501H46.3001ZM37.8201 18.685C38.6331 18.6929 39.4301 18.459 40.1098 18.0129C40.7895 17.5668 41.3212 16.9286 41.6374 16.1796C41.9536 15.4306 42.0399 14.6045 41.8854 13.8063C41.731 13.008 41.3427 12.2738 40.7699 11.6968C40.1971 11.1198 39.4657 10.7261 38.6687 10.5657C37.8716 10.4054 37.0449 10.4856 36.2935 10.7963C35.5422 11.1069 34.9002 11.6339 34.4491 12.3103C33.998 12.9867 33.7582 13.782 33.7601 14.595C33.7562 15.1307 33.8582 15.6619 34.0605 16.1579C34.2628 16.654 34.5612 17.1051 34.9386 17.4853C35.316 17.8655 35.7649 18.1672 36.2595 18.3731C36.754 18.579 37.2844 18.685 37.8201 18.685Z" fill="#1D1D1F"/>
+                            <path d="M60.3797 11.235C60.0049 11.0856 59.6027 11.0174 59.1997 11.035C56.6097 11.035 55.0697 12.955 55.0697 16.035V22.495H50.4297V6.68502H54.9997V9.27502C55.3811 8.39111 56.016 7.64007 56.824 7.11679C57.6321 6.59351 58.5771 6.32147 59.5397 6.33502C59.8097 6.33041 60.0791 6.36408 60.3397 6.43502L60.3797 11.235Z" fill="#1D1D1F"/>
+                            <path d="M86.65 16.485C86.3418 15.9022 86.1773 15.2542 86.17 14.595C86.1607 14.0639 86.2573 13.5362 86.4542 13.0428C86.651 12.5494 86.9442 12.1001 87.3166 11.7212C87.6889 11.3423 88.133 11.0414 88.6229 10.836C89.1129 10.6307 89.6388 10.5249 90.17 10.525C90.852 10.5286 91.521 10.7113 92.11 11.055L95.31 7.855C93.802 6.80797 92.0058 6.2558 90.17 6.275C88.5851 6.2312 87.0206 6.64007 85.6598 7.45369C84.299 8.26732 83.1983 9.45197 82.4867 10.8688C81.7752 12.2857 81.4822 13.876 81.6422 15.4534C81.8022 17.0308 82.4085 18.5299 83.39 19.775L86.65 16.485Z" fill="#1D1D1F"/>
+                            <path d="M96.4397 8.85501L93.2297 12.095C93.7994 12.8153 94.1094 13.7067 94.1096 14.625C94.1176 15.1553 94.02 15.6819 93.8226 16.1742C93.6251 16.6664 93.3317 17.1145 92.9595 17.4923C92.5873 17.8701 92.1436 18.1701 91.6544 18.3749C91.1651 18.5797 90.64 18.6851 90.1096 18.685C89.1702 18.6685 88.2682 18.3134 87.5696 17.685L84.3896 20.855C85.9959 22.184 88.0252 22.8936 90.1096 22.855C91.7479 22.8943 93.3614 22.4495 94.7482 21.5763C96.1349 20.703 97.2332 19.4402 97.9057 17.9457C98.5782 16.4513 98.795 14.7917 98.5289 13.1747C98.2627 11.5577 97.5256 10.0551 96.4097 8.85501H96.4397Z" fill="#1D1D1F"/>
+                            <path d="M67.38 16.705C66.9901 16.0701 66.7826 15.3401 66.78 14.595C66.7707 14.0639 66.8673 13.5362 67.0641 13.0428C67.261 12.5494 67.5541 12.1001 67.9265 11.7212C68.2989 11.3423 68.743 11.0414 69.2329 10.836C69.7228 10.6307 70.2487 10.5249 70.78 10.525C71.5466 10.5243 72.2958 10.7542 72.93 11.185L76.11 8.00501C74.5713 6.85897 72.6983 6.25104 70.78 6.27501C69.1739 6.22976 67.5889 6.64939 66.2157 7.48345C64.8424 8.31752 63.7393 9.53049 63.039 10.9765C62.3387 12.4226 62.071 14.0401 62.2681 15.6347C62.4651 17.2293 63.1186 18.733 64.15 19.965L67.38 16.705Z" fill="#1D1D1F"/>
+                            <path d="M77.2104 9.035L74.0004 12.255C74.479 12.9412 74.734 13.7584 74.7304 14.595C74.7384 15.1253 74.6408 15.6519 74.4433 16.1442C74.2459 16.6364 73.9525 17.0845 73.5803 17.4623C73.2081 17.8401 72.7644 18.1401 72.2751 18.3449C71.7859 18.5496 71.2608 18.6551 70.7304 18.655C69.8795 18.65 69.0537 18.3654 68.3804 17.845L65.1904 21.035C66.7696 22.2723 68.7245 22.9321 70.7304 22.905C71.8453 22.9454 72.9568 22.7602 73.9983 22.3603C75.0397 21.9604 75.9897 21.3543 76.791 20.5781C77.5924 19.802 78.2286 18.8719 78.6616 17.8438C79.0945 16.8156 79.3152 15.7106 79.3104 14.595C79.3352 12.5434 78.5853 10.5579 77.2104 9.035Z" fill="#1D1D1F"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_23_703">
+                            <rect width="99" height="23" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <button class="btn btn-primary">資料請求をする
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 8H13" stroke="white" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.5 3.5L13 8L8.5 12.5" stroke="white" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- 統計情報 -->
+                <div class="stats-wrapper">
+                    <div class="stat-box">
+                        <div class="stat-label">導入社数</div>
+                        <div class="stat-value-wrapper">
+                            <span class="stat-number">80</span>
+                            <span class="stat-unit">件以上</span>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-label">プロジェクト数</div>
+                        <div class="stat-value-wrapper">
+                            <span class="stat-number">100</span>
+                            <span class="stat-unit">件以上</span>
+                        </div>
+                    </div>
+                    <div class="stat-note">2026年1月末時点</div>
+                </div>
+
+                <!-- メインコピー -->
+                <h1 class="hero-title">
+                    インサイドセールスを<br>
+                    一気通貫で支援する伴走型サービス
+                </h1>
+
+                <!-- サブコピー -->
+                <p class="hero-subtitle">
+                    <span class="accent-line">\</span>
+                    大手企業からスタートアップまで幅広く対応可能
+                    <span class="accent-line">/</span>
+                </p>
+
+                <!-- 説明文 -->
+                <p class="hero-description">
+                    ゼロから事業成長に向けてインサイドセールスの<br>
+                    組織設計・立ち上げ・仕組み化を支援します。
+                </p>
+
+                <!-- CTAボタン -->
+                <div class="cta-buttons">
+                    <button class="btn btn-gradient btn-large">
+                        <small>インサイドセールスメソドロジーの</small>
+                        <span>
+                            資料請求をする
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 8H13" stroke="white" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.5 3.5L13 8L8.5 12.5" stroke="white" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                    </button>
+                    <button class="btn btn-outline-gradient">
+                        カジュアル面談を予約
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 8H13" stroke="currentColor" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.5 3.5L13 8L8.5 12.5" stroke="currentColor" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <!-- 3分で分かるバッジ -->
+                    <div class="hero-badge-circle">3分で分かる</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- クライアントロゴセクション -->
+    <section class="clients">
+        <div class="client-logos-wrapper">
+            <div class="client-logos">
+                <div class="client-logo">
+                    <img src="image/logo/logo_cloudebase.png" alt="Cloudebase">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_commune.png" alt="Commune">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_corner.png" alt="CORNER">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_degitalrecipe.png" alt="Digital Recipe">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_delta.png" alt="Delta">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_flyle.png" alt="Flyle">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_haul.png" alt="Haul">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_kakutoku.png" alt="Kakutoku">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_micoworks.png" alt="Micoworks">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_miginanameue.png" alt="Miginanameue">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_mntsq.png" alt="MNTSQ">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_moneyforward.png" alt="Money Forward">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_ntteast.png" alt="NTT EAST">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_pdca.png" alt="PDCA">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_plaid.png" alt="Plaid">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_progate.png" alt="Progate">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_roi.png" alt="ROI">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_ryple.png" alt="Ryple">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_scsk.png" alt="SCSK">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_smartcamp.png" alt="SmartCamp">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_smarthr.png" alt="SmartHR">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_sora.png" alt="Sora">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_stocksun.png" alt="StockSun">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_studio.png" alt="Studio">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_timers.png" alt="Timers">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_tokium.png" alt="TOKIUM">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_umu.png" alt="Umu">
+                </div>
+            </div>
+            <!-- 無限スクロール用に複製 -->
+            <div class="client-logos">
+                <div class="client-logo">
+                    <img src="image/logo/logo_cloudebase.png" alt="Cloudebase">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_commune.png" alt="Commune">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_corner.png" alt="CORNER">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_degitalrecipe.png" alt="Digital Recipe">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_delta.png" alt="Delta">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_flyle.png" alt="Flyle">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_haul.png" alt="Haul">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_kakutoku.png" alt="Kakutoku">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_micoworks.png" alt="Micoworks">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_miginanameue.png" alt="Miginanameue">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_mntsq.png" alt="MNTSQ">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_moneyforward.png" alt="Money Forward">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_ntteast.png" alt="NTT EAST">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_pdca.png" alt="PDCA">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_plaid.png" alt="Plaid">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_progate.png" alt="Progate">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_roi.png" alt="ROI">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_ryple.png" alt="Ryple">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_scsk.png" alt="SCSK">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_smartcamp.png" alt="SmartCamp">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_smarthr.png" alt="SmartHR">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_sora.png" alt="Sora">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_stocksun.png" alt="StockSun">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_studio.png" alt="Studio">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_timers.png" alt="Timers">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_tokium.png" alt="TOKIUM">
+                </div>
+                <div class="client-logo">
+                    <img src="image/logo/logo_umu.png" alt="Umu">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 課題セクション -->
+    <section class="problems">
+        <div class="container">
+            <!-- セクション見出し -->
+            <div class="section-header">
+                <p class="section-subtitle">インサイドセールスの</p>
+                <h2 class="section-title">こんなお悩みはありませんか？</h2>
+            </div>
+
+            <!-- 課題カード -->
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M32 42V38C32 35.8783 31.1571 33.8434 29.6569 32.3431C28.1566 30.8429 26.1217 30 24 30H12C9.87827 30 7.84344 30.8429 6.34315 32.3431C4.84285 33.8434 4 35.8783 4 38V42" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M32 6.25598C33.7155 6.70072 35.2348 7.70251 36.3194 9.10411C37.4039 10.5057 37.9924 12.2278 37.9924 14C37.9924 15.7722 37.4039 17.4943 36.3194 18.8959C35.2348 20.2975 33.7155 21.2992 32 21.744" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M44 42V38C43.9987 36.2275 43.4087 34.5056 42.3227 33.1046C41.2368 31.7037 39.7163 30.7031 38 30.26" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18 22C22.4183 22 26 18.4183 26 14C26 9.58172 22.4183 6 18 6C13.5817 6 10 9.58172 10 14C10 18.4183 13.5817 22 18 22Z" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="problem-text">専門的な知見を持つ人材がおらず、戦術起点ではなく実行が先行する営業活動により生産性が低い</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24 36C30.6274 36 36 30.6274 36 24C36 17.3726 30.6274 12 24 12C17.3726 12 12 17.3726 12 24C12 30.6274 17.3726 36 24 36Z" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24 28C26.2091 28 28 26.2091 28 24C28 21.7909 26.2091 20 24 20C21.7909 20 20 21.7909 20 24C20 26.2091 21.7909 28 24 28Z" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="problem-text">大手企業顧客に向けBDR・ABM戦略を加速したいが、社内に実践知が不足している</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M32 14H44V26" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M44 14L27 31L17 21L4 34" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="problem-text">売上最大化や各種KPI達成をエース人材の属人的なマンパワーに依存している</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 14V42" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 36C5.46957 36 4.96086 35.7893 4.58579 35.4142C4.21071 35.0391 4 34.5304 4 34V8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H16C18.1217 6 20.1566 6.84285 21.6569 8.34315C23.1571 9.84344 24 11.8783 24 14C24 11.8783 24.8429 9.84344 26.3431 8.34315C27.8434 6.84285 29.8783 6 32 6H42C42.5304 6 43.0391 6.21071 43.4142 6.58579C43.7893 6.96086 44 7.46957 44 8V34C44 34.5304 43.7893 35.0391 43.4142 35.4142C43.0391 35.7893 42.5304 36 42 36H30C28.4087 36 26.8826 36.6321 25.7574 37.7574C24.6321 38.8826 24 40.4087 24 42C24 40.4087 23.3679 38.8826 22.2426 37.7574C21.1174 36.6321 19.5913 36 18 36H6Z" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="problem-text">ナレッジが蓄積されておらず、再現性ある成果を創出する組織立ち上げができていない</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M19.3421 8.27206C19.4523 7.11274 19.9908 6.03615 20.8523 5.25262C21.7139 4.46909 22.8366 4.03491 24.0011 4.03491C25.1657 4.03491 26.2884 4.46909 27.1499 5.25262C28.0115 6.03615 28.5499 7.11274 28.6601 8.27206C28.7264 9.02097 28.972 9.7429 29.3764 10.3767C29.7807 11.0106 30.3318 11.5377 30.983 11.9134C31.6343 12.2891 32.3664 12.5025 33.1175 12.5353C33.8686 12.5681 34.6166 12.4195 35.2981 12.1021C36.3563 11.6216 37.5555 11.5521 38.6621 11.907C39.7688 12.262 40.7038 13.016 41.2852 14.0223C41.8665 15.0286 42.0527 16.2152 41.8074 17.3512C41.5621 18.4872 40.9029 19.4913 39.9581 20.1681C39.3429 20.5998 38.8407 21.1733 38.4939 21.8401C38.1472 22.5069 37.9662 23.2475 37.9662 23.9991C37.9662 24.7506 38.1472 25.4912 38.4939 26.158C38.8407 26.8248 39.3429 27.3984 39.9581 27.8301C40.9029 28.5068 41.5621 29.5109 41.8074 30.6469C42.0527 31.7829 41.8665 32.9695 41.2852 33.9759C40.7038 34.9822 39.7688 35.7362 38.6621 36.0911C37.5555 36.446 36.3563 36.3765 35.2981 35.8961C34.6166 35.5786 33.8686 35.43 33.1175 35.4628C32.3664 35.4957 31.6343 35.709 30.983 36.0847C30.3318 36.4604 29.7807 36.9875 29.3764 37.6214C28.972 38.2552 28.7264 38.9771 28.6601 39.7261C28.5499 40.8854 28.0115 41.962 27.1499 42.7455C26.2884 43.529 25.1657 43.9632 24.0011 43.9632C22.8366 43.9632 21.7139 43.529 20.8523 42.7455C19.9908 41.962 19.4523 40.8854 19.3421 39.7261C19.276 38.9769 19.0303 38.2547 18.6259 37.6206C18.2214 36.9865 17.6701 36.4593 17.0186 36.0835C16.3671 35.7077 15.6347 35.4945 14.8833 35.4619C14.1319 35.4292 13.3837 35.5782 12.7021 35.8961C11.6439 36.3765 10.4448 36.446 9.33812 36.0911C8.23147 35.7362 7.29647 34.9822 6.71509 33.9759C6.13371 32.9695 5.94755 31.7829 6.19284 30.6469C6.43813 29.5109 7.09732 28.5068 8.04212 27.8301C8.65736 27.3984 9.15958 26.8248 9.5063 26.158C9.85301 25.4912 10.034 24.7506 10.034 23.9991C10.034 23.2475 9.85301 22.5069 9.5063 21.8401C9.15958 21.1733 8.65736 20.5998 8.04212 20.1681C7.09865 19.4909 6.44062 18.4872 6.19592 17.352C5.95123 16.2168 6.13734 15.0311 6.71809 14.0255C7.29884 13.0198 8.23275 12.266 9.3383 11.9105C10.4439 11.5551 11.6421 11.6233 12.7001 12.1021C13.3816 12.4195 14.1296 12.5681 14.8807 12.5353C15.6318 12.5025 16.364 12.2891 17.0152 11.9134C17.6664 11.5377 18.2175 11.0106 18.6219 10.3767C19.0262 9.7429 19.2719 9.02097 19.3381 8.27206" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24 30C27.3137 30 30 27.3137 30 24C30 20.6863 27.3137 18 24 18C20.6863 18 18 20.6863 18 24C18 27.3137 20.6863 30 24 30Z" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="problem-text">戦術と実行が連動しておらず、精度の高い検証サイクルを継続的に回せていない</p>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M32 42V38C32 35.8783 31.1571 33.8434 29.6569 32.3431C28.1566 30.8429 26.1217 30 24 30H12C9.87827 30 7.84344 30.8429 6.34315 32.3431C4.84285 33.8434 4 35.8783 4 38V42" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M32 6.25598C33.7155 6.70072 35.2348 7.70251 36.3194 9.10411C37.4039 10.5057 37.9924 12.2278 37.9924 14C37.9924 15.7722 37.4039 17.4943 36.3194 18.8959C35.2348 20.2975 33.7155 21.2992 32 21.744" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M44 42V38C43.9987 36.2275 43.4087 34.5056 42.3227 33.1046C41.2368 31.7037 39.7163 30.7031 38 30.26" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18 22C22.4183 22 26 18.4183 26 14C26 9.58172 22.4183 6 18 6C13.5817 6 10 9.58172 10 14C10 18.4183 13.5817 22 18 22Z" stroke="#FF0055" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="problem-text">BPOベンダーに依存した体制が続いており、社内にナレッジが蓄積されない</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- インサイドセールスエンジニアリングとは -->
+    <section class="about">
+        <div class="container">
+            <!-- セクション見出し -->
+            <div class="section-header">
+                <p class="section-subtitle">Marooが提供する</p>
+                <h2 class="section-title section-title-underline">インサイドセールスエンジニアリングとは</h2>
+            </div>
+
+            <!-- 説明ボックス -->
+            <div class="about-description-box">
+                <p class="about-description-main">
+                    Marooは、組織改革に必要なヒト・メソッド・テクノロジーの3要素を統合し、<br>
+                    インサイドセールス組織の立ち上げから再現性の高い在籍み構築までを担う、<br>
+                    伴走型のプロフェッショナルサービスを提供します。
+                </p>
+            </div>
+
+            <!-- サブ説明 -->
+            <div class="about-sub-description">
+                <p>
+                    戦略設計やノウハウ提供に留まら、貴社の内製営業メンバーの一員として現場に入り込み、<br>
+                    生産性と再現性を両立するインサイドセールス組織を構築します。<br>
+                    Maroo独自の30以上のインサイドセールス戦術フレームワークを基に、<br>
+                    事業成長に直結する成果創出まで専任のプロフェッショナルが伴走します。
+                </p>
+            </div>
+
+            <!-- 定義ボックス -->
+            <div class="about-definition-box">
+                <p>「インサイドセールスエンジニアリング」とは、<span class="highlight-text">Marooが独自に体系化したサービス概念であり、価値創出と競争優位性を生み出す基幹技術です。</span></p>
+            </div>
+
+            <!-- 3つの要素カード -->
+            <div class="about-cards">
+                <!-- カード1: パーソナルスキル -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <h3 class="about-card-title-ja">パーソナルスキル</h3>
+                        <p class="about-card-title-en">Personal Skill</p>
+                    </div>
+                    <p class="about-card-description">専門性の高いプロフェッショナル人材が営業組織の一員として実行を担い、ナレッジを知識ではなく成功の検証結果として組織に浸透。</p>
+                </div>
+
+                <!-- カード2: メソドロジー -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <h3 class="about-card-title-ja">メソドロジー</h3>
+                        <p class="about-card-title-en">Methodology</p>
+                    </div>
+                    <p class="about-card-description">成果最大化に向けた上流戦術を設計し、あるべき姿を定義したうえで、現場実行と連動するオペレーションを構築。</p>
+                </div>
+
+                <!-- カード3: テクノロジー -->
+                <div class="about-card">
+                    <div class="about-card-header">
+                        <h3 class="about-card-title-ja">テクノロジー</h3>
+                        <p class="about-card-title-en">Technology</p>
+                    </div>
+                    <p class="about-card-description">成果が検証された施策を抽象化し、チームノウハウを行動習慣として型化。再現性のある組織の基盤構築に向けたテクノロジー活用と運著を促進。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- インサイドセールスエンジニアリングの特徴 -->
+    <section class="features">
+        <div class="container">
+            <!-- セクション見出し -->
+            <div class="features-header">
+                <p class="features-header-sub">Marooの</p>
+                <h2 class="features-title">インサイドセールスエンジニアリングの特徴</h2>
+            </div>
+
+            <!-- 特徴アイテム -->
+            <div class="features-list">
+                <!-- 特徴1 -->
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <h3 class="feature-heading">グローバル水準のメソドロジーとテクノロジーを<br>日本市場に合わせて成果検証・体系化</h3>
+                        <p class="feature-description">メソドロジーとは「方法論」を意味し、単なる抽象的な概念ではなく、成果を再現性高く生み出すために最適な手法やアプローチを導き、選択するための体系化された理論です。<br><br>Marooでは、グローバル水準の先端テクノロジーと、過去の成功実績から独自に開発したメソドロジー（方法論）を融合させ、企業ニーズや市場動向に応じたインサイドセールスの組織改革と生産性向上に貢献します。</p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="image/features/feature-01.png" alt="グローバル水準のメソドロジーとテクノロジーを日本市場に合わせて成果検証・体系化">
+                    </div>
+                </div>
+
+                <!-- 特徴2 -->
+                <div class="feature-item feature-item-reverse">
+                    <div class="feature-content">
+                        <h3 class="feature-heading">専門家による伴走型インサイドセールスDX支援</h3>
+                        <p class="feature-description">インサイドセールス領域における専門知識と豊富な実績を持つメンバーを中心にプロジェクト体制を構築。単なる代替リソースの提供ではなく、問題の根本原因を特定し、本質的な課題解決に向けた提案から実行までを共に進める伴走型のパートナーとして、顧客の事業成長を牽引します。</p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="image/features/feature-02.png" alt="専門家による伴走型インサイドセールスDX支援">
+                    </div>
+                </div>
+
+                <!-- 特徴3 -->
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <h3 class="feature-heading">個人の成功した思考・行動習慣を統合し、<br>形式知としてチーム全体にノウハウ還元</h3>
+                        <p class="feature-description">個人の思考・行動習慣が内面化されたブラックボックスにさせずに、リアルタイムでチーム全体に表出化し、定性的な感覚や体験に基づく暗黙知ではなく、成果が定量的に検証された形式知としてチームノウハウに還元。<br><br>一部のトッププレイヤーに依存したパフォーマンスの属人化ではなく、組織全体のパフォーマンスを高い次元で均一化する仕組みを設計します。</p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="image/features/feature-03.png" alt="個人の成功した思考・行動習慣を統合し、形式知としてチーム全体にノウハウ還元">
+                    </div>
+                </div>
+
+                <!-- 特徴4 -->
+                <div class="feature-item feature-item-reverse">
+                    <div class="feature-content">
+                        <h3 class="feature-heading">IT・SaaS業界を中心にスタートアップから大手企業まで豊富な成功実績</h3>
+                        <p class="feature-description">IT・SaaS業界をはじめ、さまざまな業界・企業規模の企業様との取り組み実績が豊富にあります。戦略設計を担う頭脳から業務推進の実行、内製化に向けた独自のメソドロジー開発に至るまで、内製の社員様と同等以上の高い視点と意識を持ってサービス提供することで、多くの顧客より高い評価をいただいております。</p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="image/features/feature-04.png" alt="IT・SaaS業界を中心にスタートアップから大手企業まで豊富な成功実績">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- プロジェクト実績 -->
+    <section class="case">
+        <div class="container">
+            <!-- セクション見出し -->
+            <div class="case-header">
+                <p class="case-header-sub">Marooの</p>
+                <h2 class="case-title">プロジェクト実績</h2>
+            </div>
+
+            <!-- 実績カード -->
+            <div class="case-cards">
+                <!-- 実績1: NTT東日本 -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="https://via.placeholder.com/380x191/f5f5f5/999999?text=NTT+East" alt="東日本電信電話株式会社">
+                    </div>
+                    <div class="case-content">
+                        <span class="case-badge">インサイドセールスBPO</span>
+                        <h3 class="case-company">東日本電信電話株式会社 様</h3>
+                        <h4 class="case-heading">現場で機能するデータドリブンなIS体制を構築</h4>
+                        <p class="case-description">NTT東日本様は、外部の業務委託人材に依存していたインサイドセールス組織を内製化し、再現性ある体制に転換することに課題がありました。Marooは戦略設計だけでなく現場実装まで伴走し、属性分析・オペレーション設計・データ統合をご支援。その結果、データドリブンで精緻なアプローチ体制が整い、効果的なターゲティングとプロセス改善が進みました。</p>
+                    </div>
+                </div>
+
+                <!-- 実績2: SCSK -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="https://via.placeholder.com/380x191/f5f5f5/999999?text=SCSK" alt="SCSK株式会社">
+                    </div>
+                    <div class="case-content">
+                        <span class="case-badge">インサイドセールスBPO</span>
+                        <h3 class="case-company">SCSK株式会社 様</h3>
+                        <h4 class="case-heading">現場に伴走し営業組織をゼロから最適化</h4>
+                        <p class="case-description">SCSKは営業の役割分担や専門化を進め、インサイドセールスを中心とした営業組織の抜本的な変革を図る課題を抱えていました。Marooはインサイドセールスの立ち上げから営業プロセス再設計まで一貫して支援し、業務負荷の軽減と役割・機能の最適化を実現しました。その結果、営業体制の効率化と生産性向上を推進する基盤が整いました。</p>
+                    </div>
+                </div>
+
+                <!-- 実績3: CORNER -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <img src="https://via.placeholder.com/380x191/f5f5f5/999999?text=CORNER" alt="株式会社コーナー">
+                    </div>
+                    <div class="case-content">
+                        <span class="case-badge">インサイドセールスBPO</span>
+                        <h3 class="case-company">株式会社コーナー 様</h3>
+                        <h4 class="case-heading">BDR組織の再現性ある成果設計を実現</h4>
+                        <p class="case-description">CORNER様はインバウンド中心でリードを獲得していたものの、エンタープライズ開拓や既存リードの再活用を強化したいという課題がありました。Marooは戦略的な伴走支援として、パーソナライズ戦略とABM視点を取り入れたBDR組織の設計・運用をご支援。その結果、4ヶ月でエンタープライズ2社・3案件の受注を実現し、ブランド価値を高めるアプローチ体制が整いました。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ご支援までの流れ -->
+    <section class="flow">
+        <div class="container">
+            <!-- セクション見出し -->
+            <div class="flow-header">
+                <p class="flow-header-sub">Marooの</p>
+                <h2 class="flow-title">ご支援までの流れ</h2>
+            </div>
+
+            <!-- フローステップ -->
+            <div class="flow-steps">
+                <!-- スタート -->
+                <div class="flow-item">
+                    <div class="flow-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path d="M16.1373 19.3295C16.3782 19.4402 16.6497 19.4654 16.9069 19.4012C17.1641 19.3369 17.3918 19.187 17.5524 18.976L17.9666 18.4335C18.1839 18.1437 18.4658 17.9085 18.7898 17.7465C19.1138 17.5845 19.471 17.5002 19.8333 17.5002H23.3333C23.9521 17.5002 24.5456 17.746 24.9832 18.1836C25.4208 18.6212 25.6666 19.2147 25.6666 19.8335V23.3335C25.6666 23.9523 25.4208 24.5458 24.9832 24.9834C24.5456 25.421 23.9521 25.6668 23.3333 25.6668C17.7637 25.6668 12.4223 23.4543 8.48401 19.5161C4.54575 15.5778 2.33325 10.2364 2.33325 4.66683C2.33325 4.04799 2.57908 3.4545 3.01667 3.01691C3.45425 2.57933 4.04775 2.3335 4.66659 2.3335H8.16659C8.78542 2.3335 9.37892 2.57933 9.8165 3.01691C10.2541 3.4545 10.4999 4.04799 10.4999 4.66683V8.16683C10.4999 8.52907 10.4156 8.88633 10.2536 9.21033C10.0916 9.53432 9.85638 9.81615 9.56659 10.0335L9.02059 10.443C8.8064 10.6065 8.65544 10.8392 8.59334 11.1014C8.53124 11.3636 8.56183 11.6393 8.67992 11.8815C10.2744 15.12 12.8967 17.7391 16.1373 19.3295Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="flow-content-wrapper">
+                        <h3 class="flow-step-title">01. お問い合わせ</h3>
+                        <p class="flow-step-description">必要事項をご記入の上、フォームよりご連絡ください。</p>
+                    </div>
+                </div>
+
+                <!-- ステップ1 -->
+                <div class="flow-item">
+                    <div class="flow-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path d="M25.6666 19.8333C25.6666 20.4522 25.4208 21.0457 24.9832 21.4832C24.5456 21.9208 23.9521 22.1667 23.3333 22.1667H7.96592C7.34713 22.1668 6.75374 22.4127 6.31625 22.8503L3.74725 25.4193C3.63141 25.5352 3.48382 25.614 3.32316 25.646C3.16249 25.6779 2.99596 25.6615 2.84461 25.5988C2.69327 25.5362 2.56391 25.43 2.47289 25.2938C2.38187 25.1576 2.33327 24.9975 2.33325 24.8337V5.83333C2.33325 5.21449 2.57908 4.621 3.01667 4.18342C3.45425 3.74583 4.04775 3.5 4.66659 3.5H23.3333C23.9521 3.5 24.5456 3.74583 24.9832 4.18342C25.4208 4.621 25.6666 5.21449 25.6666 5.83333V19.8333Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="flow-content-wrapper">
+                        <h3 class="flow-step-title">02. ヒアリング</h3>
+                        <p class="flow-step-description">弊社のプロ人材が貴社の課題感を丁寧にヒアリング、貴社の事業成長に向けたKSFを特定します。</p>
+                    </div>
+                </div>
+
+                <!-- ステップ2 -->
+                <div class="flow-item">
+                    <div class="flow-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path d="M3.5 3.5V22.1667C3.5 22.7855 3.74583 23.379 4.18342 23.8166C4.621 24.2542 5.21449 24.5 5.83333 24.5H24.5" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 19.8333V10.5" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.1667 19.8335V5.8335" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.33325 19.8335V16.3335" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="flow-content-wrapper">
+                        <h3 class="flow-step-title">03. 課題整理</h3>
+                        <p class="flow-step-description">ヒアリング情報を基に、弊社のプロ人材が貴社独自の課題感を言語化・整理します。</p>
+                    </div>
+                </div>
+
+                <!-- ステップ3 -->
+                <div class="flow-item">
+                    <div class="flow-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path d="M17.5 16.3335C17.7333 15.1668 18.3167 14.3502 19.25 13.4168C20.4167 12.3668 21 10.8502 21 9.3335C21 7.47698 20.2625 5.6965 18.9497 4.38375C17.637 3.07099 15.8565 2.3335 14 2.3335C12.1435 2.3335 10.363 3.07099 9.05025 4.38375C7.7375 5.6965 7 7.47698 7 9.3335C7 10.5002 7.23333 11.9002 8.75 13.4168C9.56667 14.2335 10.2667 15.1668 10.5 16.3335" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.5 21H17.5" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.6667 25.6665H16.3334" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="flow-content-wrapper">
+                        <h3 class="flow-step-title">04. ご提案</h3>
+                        <p class="flow-step-description">弊社のインサイドセールスエンジニアリングを基に、貴社の課題感を解決し、事業を伸ばすための最適なアプローチ（コンサルティング品質のナレッジ）をご提案。</p>
+                    </div>
+                </div>
+
+                <!-- ステップ4 -->
+                <div class="flow-item">
+                    <div class="flow-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                            <path d="M12.8333 19.8332L15.1666 22.1665C15.3964 22.3963 15.6692 22.5786 15.9695 22.703C16.2698 22.8274 16.5916 22.8914 16.9166 22.8914C17.2416 22.8914 17.5634 22.8274 17.8637 22.703C18.1639 22.5786 18.4368 22.3963 18.6666 22.1665C18.8964 21.9367 19.0787 21.6639 19.2031 21.3636C19.3274 21.0633 19.3915 20.7415 19.3915 20.4165C19.3915 20.0915 19.3274 19.7697 19.2031 19.4694C19.0787 19.1691 18.8964 18.8963 18.6666 18.6665" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16.3334 16.3334L19.25 19.2501C19.7142 19.7142 20.3436 19.975 21 19.975C21.6564 19.975 22.2859 19.7142 22.75 19.2501C23.2142 18.786 23.4749 18.1565 23.4749 17.5001C23.4749 16.8437 23.2142 16.2142 22.75 15.7501L18.2234 11.2234C17.5671 10.568 16.6775 10.1998 15.75 10.1998C14.8225 10.1998 13.9329 10.568 13.2767 11.2234L12.25 12.2501C11.7859 12.7142 11.1564 12.975 10.5 12.975C9.84364 12.975 9.21415 12.7142 8.75002 12.2501C8.28589 11.786 8.02515 11.1565 8.02515 10.5001C8.02515 9.84372 8.28589 9.21423 8.75002 8.7501L12.0284 5.47177C13.0926 4.41027 14.4806 3.73408 15.9724 3.55023C17.4643 3.36639 18.9749 3.6854 20.265 4.45677L20.8134 4.78343C21.3101 5.08325 21.9007 5.18724 22.47 5.0751L24.5 4.66677" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24.4999 3.5L25.6666 16.3333H23.3333" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3.49992 3.5L2.33325 16.3333L9.91659 23.9167C10.3807 24.3808 11.0102 24.6415 11.6666 24.6415C12.323 24.6415 12.9525 24.3808 13.4166 23.9167C13.8807 23.4525 14.1415 22.823 14.1415 22.1667C14.1415 21.5103 13.8807 20.8808 13.4166 20.4167" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3.5 4.6665H12.8333" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="flow-content-wrapper">
+                        <h3 class="flow-step-title">05. ご支援開始</h3>
+                        <p class="flow-step-description">弊社のプロ人材を貴社にアサインさせていただき現場に伴走しながら課題を解決していきます。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <h2 class="footer-heading">まずは無料で資料をダウンロード</h2>
+            <p class="footer-description">インサイドセールス組織構築の具体的な手法や成功事例を詳しくご紹介しています。<br>まずはお気軽に資料をご請求ください。</p>
+            <button class="btn btn-primary">資料請求をする
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 8H13" stroke="white" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.5 3.5L13 8L8.5 12.5" stroke="white" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <p class="footer-copyright">&copy;2026 Maroo Inc</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

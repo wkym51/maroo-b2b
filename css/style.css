@@ -96,11 +96,11 @@ body {
     content: '';
     position: absolute;
     top: 0;
-    right: -150px;
+    right: 0;
     bottom: 0;
     width: 75%;
-    background: url('../image/hero/mv_03.jpg') center / cover no-repeat;
-    opacity: 0.4;
+    background: url('../image/hero/mv_06.jpg') center / cover no-repeat;
+    opacity: 1;
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 40%);
     mask-image: linear-gradient(to right, transparent 0%, black 40%);
 }
@@ -112,6 +112,7 @@ body {
 
 .hero-content {
     display: block;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
